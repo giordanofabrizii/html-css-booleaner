@@ -20,6 +20,10 @@ header {
     background-repeat: no-repeat;
 }
 
+main, footer {
+    margin-left: 0.5%;
+}
+
 .grey-color {
     color: rgb(134, 134, 134);
 }
@@ -48,4 +52,21 @@ table{
 
 .azure-background {
     background-color: rgba(130, 245, 245, 0.733);
+}
+
+.image {
+    height:10em;
+    padding: 0.3%;
+}
+
+#first-content{
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#second-content{
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
