@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    height: 10em;
+    background-color: rgb(53, 143, 223);
+    background-image: url(../img/pattern.png);
+    background-size:contain;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#logo {
+    height: 5em;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+}
