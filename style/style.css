@@ -11,6 +11,11 @@ header {
     padding-top: 5em;
 }
 
+body{
+    max-width: 1400px;
+    margin: auto;
+}
+
 #logo {
     height: 5em;
     background-image: url(../img/logo.svg);
